@@ -2,6 +2,7 @@ package baekjoon.b_2578;
 
 import java.util.*;
 
+// 빙고
 public class Main {
     public static void main(String[] args) {
 

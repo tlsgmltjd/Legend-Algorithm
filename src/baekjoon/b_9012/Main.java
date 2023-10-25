@@ -2,6 +2,7 @@ package baekjoon.b_9012;
 
 import java.util.*;
 
+// 괄호
 public class Main {
     public static void main(String[] args) {
 
