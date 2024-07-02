@@ -1,0 +1,8 @@
+
+‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂšŸüÿÿÿÿJ$3881df60-86e4-4cab-b7e1-19dd4189e192
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¹÷8¯çŒå†2J$9bfa86ca-8022-4f71-9bee-527a8168ff6c
+y
+java:S1854"8Remove this useless assignment to local variable "temp".(‘½¹ŞÿÿÿÿÿJ$b0b25b5f-383d-45e3-8653-7f2d499b011f
+f	java:S106"+Replace this use of System.out by a logger.(ûÄÏJ$59314836-de14-445e-9dde-cad300ffbc08
+j
+java:S1481")Remove this unused "temp" local variable.(‘½¹ŞÿÿÿÿÿJ$c2dc76b8-d1cc-4721-8c4f-2828d85077ed
