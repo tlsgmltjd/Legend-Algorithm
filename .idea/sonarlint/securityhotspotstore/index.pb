@@ -33,3 +33,7 @@ M
 src/baekjoon/b_1038/Main.java,b/8/b83a88612ee15d3b59653453db60a33487133cdf
 M
 src/baekjoon/b_2877/Main.java,9/0/90655273bf8ea731a6531256e4db5a5b552c222f
+N
+src/baekjoon/b_15686/Main.java,5/f/5fb17da2ad20072f6986e8e5e8c6ae8c1ff32612
+N
+src/baekjoon/b_15649/Main.java,2/0/2096f14109f7928c201c375ad7fe5f3185cb0d1a
