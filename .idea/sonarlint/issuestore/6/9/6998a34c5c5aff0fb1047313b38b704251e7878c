@@ -1,9 +1,9 @@
 
-‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΒόÿÿÿÿJ$8d7c1627-48c6-4ddb-a709-d347f7580b82
-	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(πΉχJ$0449cf06-19b8-4b2d-8665-40744a9a17c9
-‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»»¦όÿÿÿÿJ$7586791e-112d-4af9-a70e-57b7caad2955
-‹	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ώ‡4J$7982900f-47cf-42a8-a7e3-0ee75075e88f
-†	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒιόÿÿÿÿJ$66fa4b23-940c-4352-9ebd-3455bc8efc43
+‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΒόÿÿÿÿJ$049a21b2-b5bf-44d5-930d-c9bfb92edee5
+	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(πΉχJ$e868fb39-dc7e-498a-a77d-62b7285b09f2
+‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»»¦όÿÿÿÿJ$9043eade-9469-4336-afb2-cd96ee71c694
+‹	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ώ‡4J$76f7394c-c840-48dd-96fa-a353e07c4b8d
+†	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒιόÿÿÿÿJ$2d7fa6b1-df71-479e-a65b-345800b980fb
 k
-java:S3740"/Provide the parametrized type for this generic.(Ζά—νJ$60b9893e-18c7-44e9-9a5d-03721c79b694
-f	java:S106"+Replace this use of System.out by a logger.(ϋΔΟJ$95db5391-88d4-42e2-b9c7-835173fe8350
+java:S3740"/Provide the parametrized type for this generic.(Ζά—νJ$1d88a136-1eeb-4b6b-9559-980036d2f0ee
+f	java:S106"+Replace this use of System.out by a logger.(ϋΔΟJ$f3bafc70-e28d-4f86-a83b-414d82992d31

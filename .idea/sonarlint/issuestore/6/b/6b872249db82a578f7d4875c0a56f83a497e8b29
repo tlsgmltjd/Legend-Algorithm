@@ -1,7 +1,7 @@
 
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ³´í8Ã¬õ³‰2J$a8a88616-62c5-4ded-bcf0-6e6221e5680b
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ³´í8Ã¬õ³‰2J$749b5ef0-55b7-4cc9-9e1d-60c22c25f0e9
 w
-java:S3740"/Provide the parametrized type for this generic.(¡æÉ¸ûÿÿÿÿ8ŽÝî³‰2J$5fddb113-b96d-4cd1-b664-bab492d1dc66
-m	java:S106"+Replace this use of System.out by a logger.(“”Ÿ™8âõõ³‰2J$d8319b78-d8e4-4518-804b-d28011e3994d
-I
-java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8áÞö³‰2
+java:S3740"/Provide the parametrized type for this generic.(¡æÉ¸ûÿÿÿÿ8ŽÝî³‰2J$404e2975-8dd3-4acc-8240-84cdd9080c84
+m	java:S106"+Replace this use of System.out by a logger.(“”Ÿ™8âõõ³‰2J$ab3bf7a9-6573-461f-8232-567c184d86f7
+o
+java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8áÞö³‰2J$4a4f03ac-01fc-4101-8f61-fc9fc67e453a

@@ -1,6 +1,6 @@
 
 Œ	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹J$be423586-f166-4b76-9d6b-08373f619a65
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(œû¿Ø8ã™³å†2
-f	java:S106"+Replace this use of System.out by a logger.(ûÄÏJ$fe8c5d23-4a3d-4179-9b52-c2bedc7b2bd8
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹J$a7f23525-d8cc-4084-b615-2a877675468d
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(œû¿Ø8ã™³å†2J$3e72e602-edb6-4a93-871a-07267eb016bf
+f	java:S106"+Replace this use of System.out by a logger.(ûÄÏJ$d80df7b0-5acf-4259-83da-c2f643e345cd

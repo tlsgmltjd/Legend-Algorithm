@@ -1,4 +1,4 @@
 
-m	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁüŽ8¦¦â°‰2
-G	java:S106"+Replace this use of System.out by a logger.(¯¶Üˆ8°¦â°‰2
+“	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁüŽ8¦¦â°‰2J$ededc7c1-46bb-4b10-808e-597a867ed2ab
+m	java:S106"+Replace this use of System.out by a logger.(¯¶Üˆ8°¦â°‰2J$eed0efef-78d5-47c0-9632-21ae4c68aec9
