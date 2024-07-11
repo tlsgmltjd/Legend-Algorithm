@@ -2,6 +2,7 @@ package baekjoon.b_1419_d;
 
 import java.util.*;
 
+// 등차수열의 합 - OOM
 public class Main {
 
     static Set<Long> set = new HashSet();
