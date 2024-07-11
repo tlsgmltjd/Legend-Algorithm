@@ -1,0 +1,16 @@
+
+k	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¡ôÞûÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½…Ï˜
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àé¥êúÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®©…•üÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÈŠó
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄªÝÀÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îþÞÛùÿÿÿÿ
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É³Ô
+<	java:S131""Add a default case to this switch.(ýÙ¯üÿÿÿÿ
+<	java:S131>""Add a default case to this switch.(¼Ø×Ÿÿÿÿÿÿ
+@	java:S106N"+Replace this use of System.out by a logger.(§ÄÎé
+@	java:S106O"+Replace this use of System.out by a logger.(Ù©‘È
+Ü
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 65 to 64, Complexity from 16 to 14, Nesting Level from 3 to 2, Number of Variables from 16 to 6.(Çµí‘

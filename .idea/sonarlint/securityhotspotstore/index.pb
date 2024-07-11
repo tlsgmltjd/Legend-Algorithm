@@ -30,10 +30,20 @@ M
 N
 src/baekjoon/b_11497/Main.java,b/4/b492e2f7c4680d8a9b580196cf7fd46517273a28
 M
-src/baekjoon/b_1038/Main.java,b/8/b83a88612ee15d3b59653453db60a33487133cdf
-M
 src/baekjoon/b_2877/Main.java,9/0/90655273bf8ea731a6531256e4db5a5b552c222f
 N
-src/baekjoon/b_15686/Main.java,5/f/5fb17da2ad20072f6986e8e5e8c6ae8c1ff32612
-N
 src/baekjoon/b_15649/Main.java,2/0/2096f14109f7928c201c375ad7fe5f3185cb0d1a
+M
+src/baekjoon/b_2864/Main.java,3/b/3b42cb4e39c632bc6bb68da579702d6e6aee9fde
+N
+src/baekjoon/b_14720/Main.java,f/8/f8e3268961d9668aad2f998f6cecea0807cd47c1
+M
+src/baekjoon/b_2578/Main.java,c/0/c06c2eeadf5e97cf74577b4ca0e7d0f6c09b2bdd
+M
+src/baekjoon/b_1969/Main.java,7/d/7dffe92b1bb78d3946bc1311b851c895d5e82406
+M
+src/baekjoon/b_1419/Main.java,e/a/ea0aba24390634b93f072615d9783369e00600d3
+O
+src/baekjoon/b_1495_d/Main.java,e/4/e4c75f8300741795b7354f534795859e103b348e
+Q
+!src/baekjoon/b_1419_ㅇ/Main.java,f/3/f38cfa2fda68c4d2466a7d4739f0c51e0a2c1070

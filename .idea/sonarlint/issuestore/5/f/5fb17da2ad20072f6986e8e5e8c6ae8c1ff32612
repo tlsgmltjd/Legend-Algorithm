@@ -1,20 +1,0 @@
-
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¡ôÞûÿÿÿÿ8ò—†Ý‰2J$3f121253-489c-4ab3-9792-9ce152d20a1c
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½…Ï˜8ô—†Ý‰2J$b44e89fc-4cc3-4aa6-b3e6-8d294f92f989
-’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¹ô8õ—†Ý‰2J$4a3c3c88-4328-4fa4-ab11-013c97c96f7e
-’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¹ô8÷—†Ý‰2J$9db13b44-45da-4b37-9695-55368c671e20
-’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¹ô8ø—†Ý‰2J$9b66eca1-583b-4745-871a-9c2667599726
-—
-java:S1104"OMake arr a static final constant or non-public and provide accessors if needed.(¹õý˜úÿÿÿÿ8ú—†Ý‰2J$dfb1549c-4f51-47fd-81d9-644c36bbea0e
-™
-java:S1104"QMake visit a static final constant or non-public and provide accessors if needed.(šå¼šþÿÿÿÿ8û—†Ý‰2J$8e7cff9b-3e9c-4714-8957-b7f7ad27a390
-q
-java:S1444")Make this "public static arr" field final(¹õý˜úÿÿÿÿ8ý—†Ý‰2J$219132c0-6586-4c40-b750-d0c2f05be977
-s
-java:S1444"+Make this "public static visit" field final(šå¼šþÿÿÿÿ8þ—†Ý‰2J$9556360b-3457-41f0-b761-3c7024ec5d47
-f
-java:S2386"Make member "arr" "protected".(ˆ™ùºýÿÿÿÿ8…˜†Ý‰2J$24ad86de-bbf6-4187-82d6-afac62e84412
-h
-java:S2386" Make member "visit" "protected".(ÂÁÐ£ùÿÿÿÿ8‡˜†Ý‰2J$db6e6723-7e26-45e3-b982-0ae2106a7921
-m	java:S106"+Replace this use of System.out by a logger.(Ù©È±8ˆ˜†Ý‰2J$5aa4173a-7125-456f-811e-65de19dc9f35
-r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8‰˜†Ý‰2J$183639b9-450d-4f69-aff8-60f8ae501e21

@@ -1,9 +1,9 @@
 
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹J$83801642-18d1-4ced-9912-c33a66f25f33
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ïšÄJ$52d07b00-8d29-4e25-aa6e-74eececf7d2d
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª‹ôJ$4d62ff40-02aa-4693-97eb-a4779e90216a
+Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹J$fa7960b2-57c9-4b75-9de1-c2958d844abb
+Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ïšÄJ$1c207d00-bc18-4dbb-bfc2-9c6b2802d5bd
+Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª‹ôJ$b5da69af-e511-4b77-bb7f-29dad3179b81
 ]
-java:S1643"Use a StringBuilder instead.(Õá»æıÿÿÿÿJ$58463ece-7421-4123-8ffd-9887beedd091
+java:S1643"Use a StringBuilder instead.(Õá»æıÿÿÿÿJ$c3e2e110-46cf-401f-93f9-7474bf6f3dc4
 ]
-java:S1643"Use a StringBuilder instead.(Üß‹¥ıÿÿÿÿJ$79db8633-9c1a-43d3-bcfc-16640adcfdc6
-f	java:S106"+Replace this use of System.out by a logger.(ûÄÏJ$3b128d3f-6ff8-4e9f-9144-4989d9be9317
+java:S1643"Use a StringBuilder instead.(Üß‹¥ıÿÿÿÿJ$4304d9d0-8af7-458f-bf6b-c001115e7902
+f	java:S106"+Replace this use of System.out by a logger.(ûÄÏJ$907ac056-9f91-4954-b47e-97e0e8c675c2
