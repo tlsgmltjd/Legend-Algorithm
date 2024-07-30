@@ -41,13 +41,11 @@ M
 src/baekjoon/b_2578/Main.java,c/0/c06c2eeadf5e97cf74577b4ca0e7d0f6c09b2bdd
 M
 src/baekjoon/b_1969/Main.java,7/d/7dffe92b1bb78d3946bc1311b851c895d5e82406
-M
-src/baekjoon/b_1419/Main.java,e/a/ea0aba24390634b93f072615d9783369e00600d3
 O
 src/baekjoon/b_1495_d/Main.java,e/4/e4c75f8300741795b7354f534795859e103b348e
-Q
-!src/baekjoon/b_1419_ㅇ/Main.java,f/3/f38cfa2fda68c4d2466a7d4739f0c51e0a2c1070
 O
 src/baekjoon/b_1419_d/Main.java,0/e/0eccc5394037a6e955ba0eec5a3c63acd44e5560
-N
-src/baekjoon/b_13164/Main.java,2/c/2c7d18ccbf07f81188ce6ec58c35a6b44b54d3b6
+P
+ src/baekjoon/b_13164_d/Main.java,6/d/6db7730e992a349c8454f24273c8c1010c84cc6d
+b
+2src/programmers/가장많이받은선물/Main.java,7/0/7048a88e05409f66c9889683eb97825a70ce4598
