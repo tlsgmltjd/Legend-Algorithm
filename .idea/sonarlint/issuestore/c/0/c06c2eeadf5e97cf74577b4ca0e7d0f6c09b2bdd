@@ -1,6 +1,6 @@
 
 Ž
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 81 to the 15 allowed.(Çµí‘J$276ec927-b698-48d6-a722-658af8b34f37
-f	java:S106e"+Replace this use of System.out by a logger.(º£±™J$b23ab23e-cd0e-4b43-ab63-1e956b97596c
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 81 to the 15 allowed.(Çµí‘J$b27721ad-300a-402a-b2c1-76b9f6dba211
+f	java:S106e"+Replace this use of System.out by a logger.(º£±™J$221c24ca-3514-4f2c-acc5-1c050588a5ae
 ‚
-java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 88 to 64, Complexity from 25 to 14, Nesting Level from 5 to 2, Number of Variables from 22 to 6.(Çµí‘J$ff30827b-3abf-45c9-8bf9-74e250af3912
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 88 to 64, Complexity from 25 to 14, Nesting Level from 5 to 2, Number of Variables from 22 to 6.(Çµí‘J$74ddbccd-cf83-42ac-babc-7f31d0f749cd

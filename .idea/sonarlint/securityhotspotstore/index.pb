@@ -49,3 +49,5 @@ P
  src/baekjoon/b_13164_d/Main.java,6/d/6db7730e992a349c8454f24273c8c1010c84cc6d
 b
 2src/programmers/가장많이받은선물/Main.java,7/0/7048a88e05409f66c9889683eb97825a70ce4598
+M
+src/baekjoon/b_1189/Main.java,6/2/627b87b7f3248a8f401cde68ecc050245c966e6d

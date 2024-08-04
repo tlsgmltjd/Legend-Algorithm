@@ -1,9 +1,9 @@
 
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ê•í8º„åŒŠ2J$6a9e5030-34fb-4090-9e94-7ad801f53ac6
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ†şÿÿÿÿ8º„åŒŠ2J$de4b4fe0-dd9a-45e4-8f78-2006fe35468e
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à–“Øıÿÿÿÿ8º„åŒŠ2J$6b9e7f0f-b7b3-40eb-ad52-1884da4c9a37
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ê•í8º„åŒŠ2J$e626bae4-af3c-41d4-9b6d-f3e3f1e54532
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ†şÿÿÿÿ8º„åŒŠ2J$01d76efe-25a6-49e8-84df-2ef294118325
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à–“Øıÿÿÿÿ8º„åŒŠ2J$41162a0f-86ec-4973-bb9e-bac6b8c287a4
 w
-java:S3740"/Provide the parametrized type for this generic.(ÿ÷„²şÿÿÿÿ8»„åŒŠ2J$d3a9cf9d-2e8d-485e-bf28-3d2dcc84566c
+java:S3740"/Provide the parametrized type for this generic.(ÿ÷„²şÿÿÿÿ8»„åŒŠ2J$8c8480ef-c928-4343-baca-7077b1ba53de
 r
-java:S3740	"/Provide the parametrized type for this generic.(Ÿ¤Ø8»„åŒŠ2J$4caa5dd8-e67b-4de1-9416-5a8e07f5f08f
-m	java:S106"+Replace this use of System.out by a logger.(Öû³œ8İÓğŒŠ2J$3e02bbe6-1caa-46c9-b4d2-664677f07f1c
+java:S3740	"/Provide the parametrized type for this generic.(Ÿ¤Ø8»„åŒŠ2J$e507c3e3-bb9c-419d-88af-9bead1c6a9a3
+m	java:S106"+Replace this use of System.out by a logger.(Öû³œ8İÓğŒŠ2J$0e88e04f-02c8-43c6-adf3-101b979d2fad

@@ -1,7 +1,7 @@
 
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹J$d6a44e3c-a5aa-48ca-9c4c-73eb64d7940c
+Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹J$22437f57-4bdf-43dd-a61f-c00fcf76754b
 j
-java:S3740"/Provide the parametrized type for this generic.(ð²¾MJ$e0851d28-c566-4019-a5f0-7b2e069d7cf5
-f	java:S106"+Replace this use of System.out by a logger.(ûÄÏJ$b433af49-dd90-4653-8721-9e071a7e43af
+java:S3740"/Provide the parametrized type for this generic.(ð²¾MJ$256b52f6-370d-4302-a9d9-b16a6856ff40
+f	java:S106"+Replace this use of System.out by a logger.(ûÄÏJ$a9e57007-fd0d-491e-ac45-254b66fb78ae
 z
-java:S1155">Use isEmpty() to check whether the collection is empty or not.(ðì¿¾J$e97ebbf9-0442-4963-87dd-a0f1c4c9e8f8
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ðì¿¾J$12d8b6df-bef7-4cd8-a666-13da3d7eb633
