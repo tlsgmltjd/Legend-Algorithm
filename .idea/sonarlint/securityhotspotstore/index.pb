@@ -51,3 +51,5 @@ b
 2src/programmers/가장많이받은선물/Main.java,7/0/7048a88e05409f66c9889683eb97825a70ce4598
 M
 src/baekjoon/b_1189/Main.java,6/2/627b87b7f3248a8f401cde68ecc050245c966e6d
+M
+src/baekjoon/b_1012/Main.java,5/2/52f3199cd0355f89ff37055cc3bc5a9e4e61eb60
