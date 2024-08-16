@@ -55,3 +55,5 @@ M
 src/baekjoon/b_1012/Main.java,5/2/52f3199cd0355f89ff37055cc3bc5a9e4e61eb60
 M
 src/baekjoon/b_2232/Main.java,9/e/9eb55186f5a428d31b979df456b4acfee77bc9f5
+M
+src/baekjoon/b_1026/Main.java,0/5/0555ae70d745decb0edd0d24ef38f7922bbffba1

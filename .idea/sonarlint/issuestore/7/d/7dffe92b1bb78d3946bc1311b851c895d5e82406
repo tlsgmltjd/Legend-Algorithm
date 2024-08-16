@@ -1,16 +1,0 @@
-
-‘	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¡ôÞûÿÿÿÿJ$c29048d9-db05-4027-901d-ac7303ed09af
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½…Ï˜J$d93b412d-2192-40c1-8534-9c564aa6818e
-‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àé¥êúÿÿÿÿJ$1489756e-ee16-482a-beb9-e1f662652131
-‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®©…•üÿÿÿÿJ$0b5944e7-ec0e-403b-bb72-e0b598126a00
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÈŠóJ$ee668158-b6bb-415d-bd92-640b1bc05c5b
-‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄªÝÀÿÿÿÿÿJ$6b794312-203b-490e-ad4c-7b182eb84d80
-‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îþÞÛùÿÿÿÿJ$a79a51ba-24e4-4f27-87a6-d8d555a5bcf5
-‹	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É³ÔJ$4765d2c4-9567-4dec-8fb1-260fc55f2c66
-b	java:S131""Add a default case to this switch.(ýÙ¯üÿÿÿÿJ$60822ffd-e535-4a19-8e8a-6990dfd1067f
-b	java:S131>""Add a default case to this switch.(¼Ø×ŸÿÿÿÿÿJ$560fb58e-4f18-43cb-96e7-fff1bd623abc
-f	java:S106N"+Replace this use of System.out by a logger.(§ÄÎéJ$f29b94f6-70c1-4ad2-a9ce-2fad64d2c38a
-f	java:S106O"+Replace this use of System.out by a logger.(Ù©‘ÈJ$70517b21-4b4e-46ca-afe4-119678fd77af
-‚
-java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 65 to 64, Complexity from 16 to 14, Nesting Level from 3 to 2, Number of Variables from 16 to 6.(Çµí‘J$c3bac756-2b21-44fd-be76-72d1adcfd327
