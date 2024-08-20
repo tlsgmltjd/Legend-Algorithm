@@ -59,11 +59,11 @@ M
 src/baekjoon/b_1026/Main.java,0/5/0555ae70d745decb0edd0d24ef38f7922bbffba1
 M
 src/baekjoon/b_9655/Main.java,4/2/4296b54a2d5e4b4ac3701121eb5522237f163ad3
-T
-$src/baekjoon/b_9656/b_9655/Main.java,9/7/97aa4e0c64688868b6fe32e72488ddc921618727
 M
 src/baekjoon/b_9656/Main.java,4/1/41ed5774786f4ed728ab27192cbe56c874817ab0
-T
-$src/baekjoon/b_9657/b_9656/Main.java,e/b/eb77686b5e1c8ae865181c64f137c63e530a3d04
 M
 src/baekjoon/b_9657/Main.java,3/5/35afcad04612f2ccf1fc57df09b83333291ceab3
+N
+src/baekjoon/b_14501/Main.java,4/4/442864dea11d4efe8f80090f0997bdbededd7f53
+M
+src/baekjoon/b_2748/Main.java,4/c/4cf08c4726d5742792546ac9a907419ca6347005
