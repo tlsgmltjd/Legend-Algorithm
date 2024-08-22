@@ -1,0 +1,13 @@
+
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´ª»üÿÿÿÿ8“Ò”Î—2J$7d5734be-6f89-4ddc-b09c-90cb699e511c
+’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚‹­8”Ò”Î—2J$f472f0f0-9186-48e7-bb66-5445f713affd
+ 	java:S135F"YReduce the total number of break and continue statements in this loop to use at most one.(€æ°üÿÿÿÿ8ŸÒ”Î—2J$f3d951c5-419f-4396-9bce-72344fc9b0dd
+—
+java:S3008"TRename this field "ì§€ë ì´" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âûåÓ8ŸÒ”Î—2J$a5e8779e-9ae2-4890-9293-521dec4211f5
+”
+java:S3008	"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿…İŠúÿÿÿÿ8ŸÒ”Î—2J$85cf9b6b-c424-4d7f-b218-438e5800c575
+”
+java:S3008	"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿…İŠúÿÿÿÿ8ŸÒ”Î—2J$63ca101b-f832-4c43-a38b-2406773c9665
+g
+java:S1659	"Declare "N" on a separate line.(¿…İŠúÿÿÿÿ8ŸÒ”Î—2J$eed5b69b-fe2f-4adb-9aa6-a00a36844ac9
+m	java:S106:"+Replace this use of System.out by a logger.(Áß‡Ü8°Ó”Î—2J$2a17019c-7b67-4c3f-8162-e0a7d7f6360d

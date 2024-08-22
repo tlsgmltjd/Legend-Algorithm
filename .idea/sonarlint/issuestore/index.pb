@@ -67,7 +67,7 @@ N
 src/baekjoon/b_14501/Main.java,4/4/442864dea11d4efe8f80090f0997bdbededd7f53
 M
 src/baekjoon/b_2748/Main.java,4/c/4cf08c4726d5742792546ac9a907419ca6347005
-T
-$src/baekjoon/b_9095/b_2748/Main.java,c/f/cf46fc86d10df1301b865fd82a1d01a74c963a60
 M
 src/baekjoon/b_9095/Main.java,6/8/68a60fb0102cc569cbc4f18a3fed1e55997d2931
+M
+src/baekjoon/b_2606/Main.java,5/c/5cfdd1f7e5db96d7789983843d8eaf7f5e5677c3
