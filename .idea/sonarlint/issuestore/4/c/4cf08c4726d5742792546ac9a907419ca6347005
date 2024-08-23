@@ -1,5 +1,5 @@
 
 “	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8ØŠë–2J$97a83e4c-16c0-4797-9cbf-32e1635f2a9f
-r	java:S106"+Replace this use of System.out by a logger.(óŠÕÎÿÿÿÿÿ8ØŠë–2J$45a9ca32-c79b-4780-9284-c259d8f5de80
-m	java:S106"+Replace this use of System.out by a logger.(¯¶Üˆ8ñ”Œë–2J$f07bd90a-b919-44bf-8056-46a9af6ddd29
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8ØŠë–2J$aca5338e-a5f9-44ca-a1cf-d96841d44718
+r	java:S106"+Replace this use of System.out by a logger.(óŠÕÎÿÿÿÿÿ8ØŠë–2J$1549122c-302e-4cb9-bce6-9b51a2f61ac1
+m	java:S106"+Replace this use of System.out by a logger.(¯¶Üˆ8ñ”Œë–2J$967f5b1f-c908-48ef-9f16-73924ddafa7e
