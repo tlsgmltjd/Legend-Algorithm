@@ -1,4 +1,4 @@
 
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁüŽ8í˜‘ì–2J$7e9290e4-915c-4899-8a42-d6e64589e988
-›	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(»³½‹8î˜‘ì–2J$66dca1a0-b8ef-423a-96cf-10fb5e9c0a77
-r	java:S106("+Replace this use of System.out by a logger.(‡ãŠëÿÿÿÿÿ8î˜‘ì–2J$26088931-a636-4607-aec5-31a0cd0dc87f
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁüŽ8í˜‘ì–2J$ce77d886-f531-4569-a918-d417c6fd2bfd
+›	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(»³½‹8î˜‘ì–2J$ec84620f-9b92-4e0b-ab41-e3bbc05bd7eb
+r	java:S106("+Replace this use of System.out by a logger.(‡ãŠëÿÿÿÿÿ8î˜‘ì–2J$8036bedb-0546-4f0b-af76-57ee1aae7e2b
