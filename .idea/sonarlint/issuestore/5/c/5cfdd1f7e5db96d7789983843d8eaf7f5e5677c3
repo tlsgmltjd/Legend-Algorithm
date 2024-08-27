@@ -1,5 +1,5 @@
 
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8ê×Ğ—2J$74c015bf-abab-430f-958a-fc3809cf832a
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8ê×Ğ—2J$9a682b71-18ab-4ab3-9616-9f126b67fe69
 
-java:S3008	"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËùÕØ8ë×Ğ—2J$30736104-fc34-44c4-a11f-e574e87db829
-r	java:S106!"+Replace this use of System.out by a logger.(‰­…³úÿÿÿÿ8ğ×Ğ—2J$e341545e-2cc7-4b26-a139-7523d853c3f6
+java:S3008	"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËùÕØ8ë×Ğ—2J$3917f659-1047-4f57-9508-89d7601567a2
+r	java:S106!"+Replace this use of System.out by a logger.(‰­…³úÿÿÿÿ8ğ×Ğ—2J$edcd94e7-5a28-4027-a221-4ac2f98b41b6

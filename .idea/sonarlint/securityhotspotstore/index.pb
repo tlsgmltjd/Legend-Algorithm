@@ -75,3 +75,7 @@ N
 src/baekjoon/b_10799/Main.java,8/d/8d4546c1da052074465df8e6b5dfd3975f3663b5
 N
 src/baekjoon/b_18310/Main.java,b/b/bb0719a9e17a2dd042e882b3981cc247f7530a68
+M
+src/baekjoon/b_1946/Main.java,3/1/31f125e043ac990edd4f6306e2291bdd27b8bfa3
+M
+src/baekjoon/b_1758/Main.java,5/d/5d1a0b027d0d2f5d52889b3da5c4c64913c7a561

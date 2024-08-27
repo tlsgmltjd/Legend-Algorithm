@@ -1,0 +1,7 @@
+
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8Â×¶ê˜2J$15b1914e-f777-44b1-b87a-13f76bb6bbad
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹8Ä×¶ê˜2J$f93a2109-8edf-4739-b83b-10504951a41f
+ 	java:S135%"YReduce the total number of break and continue statements in this loop to use at most one.(ªÅŠŸüÿÿÿÿ8¼ÉÂê˜2J$ec72d233-867b-4bdc-87bb-550fbe474471
+•
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(œû¿Ø8¿ÉÂê˜2J$01337940-fad7-414c-8616-d3ad49b5b30c
+m	java:S106"+Replace this use of System.out by a logger.(ûÄÏ8È×¶ê˜2J$9ae42688-4401-43b1-8430-8b3bf36f8b47

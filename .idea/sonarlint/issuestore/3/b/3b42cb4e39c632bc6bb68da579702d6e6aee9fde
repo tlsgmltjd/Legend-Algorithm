@@ -1,6 +1,6 @@
 
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜõÖ‡øÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜõÖ‡øÿÿÿÿ
-<
-java:S1659"!Declare "Max" on a separate line.(ÜõÖ‡øÿÿÿÿ
-E	java:S106$"+Replace this use of System.out by a logger.(Ùğ©úÿÿÿÿ
+‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜõÖ‡øÿÿÿÿJ$92131820-f5b3-4b72-aa7e-4232f5aef3da
+‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜõÖ‡øÿÿÿÿJ$b16d886d-9827-4e75-92c9-41f380fcd716
+b
+java:S1659"!Declare "Max" on a separate line.(ÜõÖ‡øÿÿÿÿJ$25126b6e-dd33-42c3-a035-dfad8935d626
+k	java:S106$"+Replace this use of System.out by a logger.(Ùğ©úÿÿÿÿJ$98c7f3dd-1934-4f16-aa00-84429f840b4c
