@@ -1,4 +1,4 @@
-package baekjoon.b_1946;
+package baekjoon.b_1946_f;
 
 import java.io.*;
 import java.util.ArrayList;
