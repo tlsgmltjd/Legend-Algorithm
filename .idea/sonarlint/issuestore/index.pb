@@ -81,3 +81,5 @@ M
 src/baekjoon/b_3036/Main.java,7/4/742c08da8a1583e8c92c688833b4c5be09eb6fc8
 N
 src/baekjoon/b_20548/Main.java,0/d/0d5a62b7ca07bb52d3a7229a2342814aee9fe99f
+P
+ src/baekjoon/b_20548_f/Main.java,6/d/6d29edd326518db858284986b1f292f38123d79c
