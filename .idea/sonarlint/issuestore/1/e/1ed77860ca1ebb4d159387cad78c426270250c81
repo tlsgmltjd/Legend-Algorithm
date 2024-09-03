@@ -1,6 +1,6 @@
 
-‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂšŸüÿÿÿÿJ$0f2a6d8d-d201-4aa1-86e7-2fe36b59f939
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¹÷8¯çŒå†2J$31e81a03-9ba1-489d-af0c-594504a38935
-f	java:S106"+Replace this use of System.out by a logger.(ûÄÏJ$de733c52-8ef9-4b79-82dc-7f41b3334ff7
+‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂšŸüÿÿÿÿJ$1efa2fdc-978d-4a28-8fcb-f9497041522a
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¹÷8¯çŒå†2J$61f5b2b6-b329-447c-8e49-64978fc06290
+f	java:S106"+Replace this use of System.out by a logger.(ûÄÏJ$2887fa2d-6855-4388-9c5a-767d094ec402
 j
-java:S1481")Remove this unused "temp" local variable.(‘½¹ŞÿÿÿÿÿJ$aa04b280-5457-404f-ab98-1c5473ba8b90
+java:S1481")Remove this unused "temp" local variable.(‘½¹ŞÿÿÿÿÿJ$47b257de-5993-429e-80a6-167377f63f39
