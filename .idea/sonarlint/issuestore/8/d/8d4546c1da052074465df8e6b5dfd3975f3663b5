@@ -1,7 +1,0 @@
-
-“	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÃ¼›8ºß°è—2J$ab1c7746-e3eb-4752-bdc6-611982d2e2c9
-Ÿ	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ñ¡”Ÿúÿÿÿÿ8ê¿²è—2J$1b1d4d01-dcff-482c-8895-e57ea2dd7bb6
-˜
-java:S1149	"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8½ß°è—2J$2a7a9094-4dcc-4dd2-b9a7-ed0ea64376ad
-r	java:S106!"+Replace this use of System.out by a logger.(¸šñÙüÿÿÿÿ8ñ“¶è—2J$4188fba2-7c52-4191-bdf2-89da67742d16

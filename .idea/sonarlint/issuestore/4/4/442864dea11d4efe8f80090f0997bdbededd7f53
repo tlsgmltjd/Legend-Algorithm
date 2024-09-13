@@ -1,14 +1,0 @@
-
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8Ëã”Î—2J$c4b0f020-9091-4b2a-9a9c-94a9f192b6bc
-“	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İóœã8Íã”Î—2J$407d7f10-4548-4962-9a61-9bdaa2a88aa7
-’	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÅˆQ8Îã”Î—2J$d9565272-e71f-4fe5-affb-b872b7f3e03f
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Ûûó8Ïã”Î—2J$524daa72-c5e1-4b54-a4fb-523a2f4fd78b
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( Ûûó8Ñã”Î—2J$bf704240-f31d-40d4-86df-56f24ce8c3a7
-r
-java:S1481"*Remove this unused "check" local variable.(Õãêïøÿÿÿÿ8Òã”Î—2J$3827fafc-32e7-431f-8ff5-b56fef302d2e
-q
-java:S1481".Remove this unused "timestamp" local variable.(åº’Â8Óã”Î—2J$6da48f65-b333-49e7-9aeb-a71f22055314
-k
-java:S1481"(Remove this unused "now" local variable.(Ü ¹Õ8Õã”Î—2J$628ea20d-0c09-4cae-aef8-26063f921666

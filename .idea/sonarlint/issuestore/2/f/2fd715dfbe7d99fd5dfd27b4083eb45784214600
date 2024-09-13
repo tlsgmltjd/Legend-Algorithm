@@ -1,10 +1,0 @@
-
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹J$4a30d81b-c5cf-470d-853a-10db3d8d8a84
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ïšÄJ$82e258d1-f382-4d55-8084-c0c70e84b4f6
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†•’J$bfee3c4c-6495-4ea8-b889-172eb0265fd0
-‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü‡±öûÿÿÿÿJ$d7a0bbe7-3c8e-481b-a9f2-9c4d82d1fd6c
-
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.(œû¿ØJ$8853dc76-3af3-4880-aff7-c74bda19bda3
-f	java:S106	"+Replace this use of System.out by a logger.(ûÄÏJ$76cef2d2-6ae8-4130-9e53-11e12a447a7c
-‚
-java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 69 to 64, Complexity from 19 to 14, Nesting Level from 4 to 2, Number of Variables from 18 to 6.(œû¿ØJ$cc2f0aa1-a371-45ef-a172-a95dbbc296ff

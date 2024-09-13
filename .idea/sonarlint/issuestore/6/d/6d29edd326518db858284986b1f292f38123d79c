@@ -1,6 +1,0 @@
-
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8åàü¼›2J$39ed0513-2e2d-4f93-8c45-311946f79680
-m
-java:S1481"*Remove this unused "level" local variable.(ôÖÜ8®õı¼›2J$1fdf34f2-b88c-4479-bd06-7539c8d70143
-r	java:S106""+Replace this use of System.out by a logger.(æ¨¤šøÿÿÿÿ8éàü¼›2J$42666b10-cc2f-46ac-b6ba-72498ca14c6a
-r	java:S106,"+Replace this use of System.out by a logger.(„×“ÿÿÿÿÿ8‰òÿ¼›2J$aac05a4c-f54e-456b-8017-8df8f89f11aa

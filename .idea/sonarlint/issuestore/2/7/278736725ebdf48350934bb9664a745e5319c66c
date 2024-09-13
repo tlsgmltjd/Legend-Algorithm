@@ -1,8 +1,0 @@
-
-Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹J$7ed3084a-1df5-4ccb-86ea-1299cb4712d6
-k
-java:S3740"/Provide the parametrized type for this generic.(‘ÌüÍJ$e7b4a1d1-9982-4fe3-adc3-b811cd517c36
-f	java:S106
-"+Replace this use of System.out by a logger.(ûÄÏJ$47a6f6df-cf22-488e-9652-e748871ebe9c
-z
-java:S1155">Use isEmpty() to check whether the collection is empty or not.(ðì¿¾J$e6fa8892-9ace-489d-9cd6-492906e6035b

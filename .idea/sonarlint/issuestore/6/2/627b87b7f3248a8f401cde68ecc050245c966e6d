@@ -1,16 +1,0 @@
-
-w
-java:S1066Q"/Merge this if statement with the enclosing one.(—Ö¯ûÿÿÿÿ8ÓÌ”Î—2J$862f78aa-d47f-4aab-b718-c34ea77e24b7
-”
-java:S3008"LRename this field "R" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é™Ú¯üÿÿÿÿ8ÜÌ”Î—2J$b8c42a54-ed5e-4d08-b98b-a44413a862a6
-”
-java:S3008"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é™Ú¯üÿÿÿÿ8ŞÌ”Î—2J$03956f0d-c487-4092-a2da-71e4d97a2c62
-”
-java:S3008"LRename this field "K" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é™Ú¯üÿÿÿÿ8ŞÌ”Î—2J$08cca720-7fe4-4b21-a317-d94cf38b1bc5
-†
-java:S1659">Declare "C" and all following declarations on a separate line.(é™Ú¯üÿÿÿÿ8áÌ”Î—2J$6db8bdd7-3fca-4e00-81ab-9f9940b2c32a
-¡
-java:S30121"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(¦ğ²¤úÿÿÿÿ8öÌ”Î—2J$c37e3854-675f-4c09-bc98-8055d3174561
-r	java:S106>"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8øÌ”Î—2J$289ffa1b-f648-40cf-8956-0597f5f3ed33
-v
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8şÌ”Î—2J$7ce976f9-6233-4651-8959-1238ff6e92f5
