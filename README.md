@@ -1,0 +1,1 @@
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=vvwv309)](https://solved.ac/vvwv309)
