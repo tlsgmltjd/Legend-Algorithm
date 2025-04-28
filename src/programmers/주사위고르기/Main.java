@@ -1,6 +1,7 @@
 package programmers.주사위고르기;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -8,14 +9,12 @@ public class Main {
     static List<Integer> result2;
 
     public static void main(String[] args) {
-        int[] v = solution(new int[][]
-//                {{1, 2, 3, 4, 5, 6}, {2, 2, 4, 4, 6, 6}}
-
-                {{1, 2, 3, 4, 5, 6}, {3, 3, 3, 3, 4, 4}, {1, 3, 3, 4, 4, 4}, {1, 1, 4, 4, 5, 5}}
-
-//                        {{1,2}, {3,4}, {11,2}, {1,23}, {15,2}, {17,2}}
-
-        );
+        int[] v = solution(new int[][]{
+                {1, 2, 3, 4, 5, 6},
+                {3, 3, 3, 3, 4, 4},
+                {1, 3, 3, 4, 4, 4},
+                {1, 1, 4, 4, 5, 5}
+        });
 
         for (int i : v) {
             System.out.println(i);
@@ -24,75 +23,87 @@ public class Main {
 
     public static int[] solution(int[][] dice) {
         int n = dice.length;
-        int k = dice.length / 2;
+        int k = n / 2;
 
         List<List<Integer>> result = new ArrayList<>();
         backtrack(1, n, k, new ArrayList<>(), result);
 
-        int[][] sum = new int[result.size()][(int) Math.pow(dice[0].length, result.get(0).size())];
+        int[][] recode = new int[result.size()][2];
 
-        int temp = 0;
+        for (int i = 0; i < result.size() / 2; i++) {
+            List<Integer> aPick = result.get(i);
 
-        for (List<Integer> comb : result) {
-            int[][] arr = new int[comb.size()][dice[0].length];
-            int idx = 0;
-
-            for (Integer c : comb) {
-                arr[idx] = dice[c - 1];
-                idx++;
-            }
-            result2 = new ArrayList<>();
-            backtrack2(arr, 0, 0);
-
-            sum[temp] = result2.stream().mapToInt(i -> i).toArray();
-
-            temp++;
-        }
-
-        int[][] recode = new int[sum.length / 2][3];
-
-        for (int i = 0; i < sum.length / 2; i++) {
-            int[] revers = sum[sum.length - 1 - i];
-
-            int win = 0;
-            int draw = 0;
-            int lose = 0;
-
-            for (int m = 0; m < sum[i].length; m++) {
-                for (int q = 0; q < sum[i].length; q++) {
-                    if (sum[i][m] > revers[q]) {
-                        win++;
-                    } else if (sum[i][m] == revers[q]) {
-                        draw++;
-                    } else if (sum[i][m] < revers[q]) {
-                        lose++;
-                    }
+            List<Integer> bPick = new ArrayList<>();
+            for (int d = 1; d <= n; d++) {
+                if (!aPick.contains(d)) {
+                    bPick.add(d);
                 }
             }
 
+            int[][] aArr = new int[aPick.size()][];
+            int[][] bArr = new int[bPick.size()][];
+
+            for (int j = 0; j < aPick.size(); j++) {
+                aArr[j] = dice[aPick.get(j) - 1];
+            }
+            for (int j = 0; j < bPick.size(); j++) {
+                bArr[j] = dice[bPick.get(j) - 1];
+            }
+
+            result2 = new ArrayList<>();
+            backtrack2(aArr, 0, 0);
+            int[] aSum = result2.stream().mapToInt(x -> x).toArray();
+
+            result2 = new ArrayList<>();
+            backtrack2(bArr, 0, 0);
+            int[] bSum = result2.stream().mapToInt(x -> x).toArray();
+
+            Arrays.sort(bSum);
+
+            int win = 0;
+            int lose = 0;
+            for (int am : aSum) {
+                int idx = Arrays.binarySearch(bSum, am);
+
+                if (idx < 0) {
+                    idx = -(idx + 1);
+                    win += idx;
+                    lose += bSum.length - idx;
+                } else {
+                    while (idx > 0 && bSum[idx - 1] == am) {
+                        idx--;
+                    }
+
+                    int same = 0;
+                    int tempIdx = idx;
+                    while (tempIdx < bSum.length && bSum[tempIdx] == am) {
+                        same++;
+                        tempIdx++;
+                    }
+
+                    win += idx;
+                    lose += bSum.length - idx - same;
+                }
+
+            }
 
             recode[i][0] = win;
-            recode[i][1] = draw;
-            recode[i][2] = lose;
+            recode[i][1] = lose;
+
+            recode[result.size() - i - 1][0] = lose;
+            recode[result.size() - i - 1][1] = win;
         }
 
-        int[] winCount = new int[result.size()];
+        int maxWin = -1;
+        int bestIdx = -1;
         for (int i = 0; i < recode.length; i++) {
-            winCount[i] = recode[i][0];
-            winCount[i+recode.length] = recode[i][2];
-        }
-
-        int max = -1;
-        int answerIdx = -1;
-
-        for (int i = 0; i < winCount.length; i++) {
-            if (max < winCount[i]) {
-                max = winCount[i];
-                answerIdx = i;
+            if (recode[i][0] > maxWin) {
+                maxWin = recode[i][0];
+                bestIdx = i;
             }
         }
 
-        return result.get(answerIdx).stream()
+        return result.get(bestIdx).stream()
                 .mapToInt(Integer::intValue)
                 .toArray();
     }
@@ -110,7 +121,6 @@ public class Main {
         }
     }
 
-
     private static void backtrack2(int[][] arr, int depth, int sum) {
         if (depth == arr.length) {
             result2.add(sum);
@@ -121,5 +131,4 @@ public class Main {
             backtrack2(arr, depth + 1, sum + arr[depth][i]);
         }
     }
-
 }
