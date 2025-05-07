@@ -7,42 +7,60 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-        String answer = solution(2, 2, 1, 1, 2, 2, 2);
+        String answer = solution(3, 4, 2, 3, 3, 1, 5);
         System.out.println(answer);
     }
 
     public static String solution(int n, int m, int x, int y, int r, int c, int k) {
-        String answer = "";
-
         int[][] move = new int[][]{
-                {0, 1}, {1, 0}, {0, -1}, {-1, 0}
+                {1, 0}, {0, -1}, {0, 1}, {-1, 0}
         };
+
+        int distant = Math.abs(x - r) + Math.abs(y - c);
+        if (distant > k || (k - distant) % 2 != 0) {
+            return "impossible";
+        }
 
         boolean[][] map = new boolean[n][m];
         map[r - 1][c - 1] = true;
 
         Queue<String[]> queue = new LinkedList<>();
-        queue.add(new String[]{String.valueOf(x - 1), String.valueOf(y - 1), "", "false"});
+        queue.add(new String[]{String.valueOf(x - 1), String.valueOf(y - 1), ""});
 
         for (int i = 0; i < k; i++) {
 
             Queue<String[]> queue2 = new LinkedList<>();
+            boolean[][] v = new boolean[n][m];
+            String[][] vs = new String[n][m];
 
             while (!queue.isEmpty()) {
                 String[] poll = queue.poll();
 
                 for (int j = 0; j < 4; j++) {
-                    if (Integer.parseInt(poll[0]) + move[j][0] < 0 || Integer.parseInt(poll[1]) + move[j][1] < 0 ||
-                        Integer.parseInt(poll[0]) + move[j][0] >= n || Integer.parseInt(poll[1]) + move[j][1] >= m
-                    ) {
+                    int nx = Integer.parseInt(poll[0]) + move[j][0];
+                    int ny = Integer.parseInt(poll[1]) + move[j][1];
+
+                    if (nx < 0 || ny < 0 || nx >= n || ny >= m) {
                         continue;
                     }
 
+                    if (map[nx][ny] && i == k - 1) {
+                        return poll[2] + toSign(j);
+                    }
+
+                    if (v[nx][ny]) {
+                        if (Integer.parseInt(vs[nx][ny]) <= j) {
+                            continue;
+                        }
+                    }
+
+                    v[nx][ny] = true;
+                    vs[nx][ny] = String.valueOf(j);
+
                     queue2.add(new String[]{
-                        String.valueOf(Integer.parseInt(poll[0]) + move[j][0]),
-                        String.valueOf(Integer.parseInt(poll[1]) + move[j][1]),
+                        String.valueOf(nx),
+                        String.valueOf(ny),
                         poll[2] + toSign(j),
-                        map[Integer.parseInt(poll[0]) + move[j][0]][Integer.parseInt(poll[1]) + move[j][1]] ? "true" : "false"
                     });
                 }
             }
@@ -51,22 +69,14 @@ public class Main {
 
         }
 
-        SortedSet<String> sortedSet = new TreeSet<>();
-
-        for (String[] strings : queue) {
-            if (strings[3] != "true") continue;
-
-            sortedSet.add(strings[2]);
-        }
-
-        return sortedSet.isEmpty() ? "impossible" : sortedSet.first();
+        return "impossible";
     }
 
     private static String toSign(int move) {
         return switch (move) {
-            case 0 -> "r";
-            case 1 -> "d";
-            case 2 -> "l";
+            case 0 -> "d";
+            case 1 -> "l";
+            case 2 -> "r";
             case 3 -> "u";
             default -> "";
         };
