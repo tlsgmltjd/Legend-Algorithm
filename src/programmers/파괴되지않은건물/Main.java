@@ -1,7 +1,6 @@
 package programmers.파괴되지않은건물;
 
 import java.util.Arrays;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,14 +12,7 @@ public class Main {
 
     public static int solution(int[][] board, int[][] skill) {
 
-        AtomicInteger answer = new AtomicInteger();
-        for (int row = 0; row < board.length; row++) {
-            for (int col = 0; col < board[row].length; col++) {
-                if (board[row][col] > 0) {
-                    answer.getAndIncrement();
-                }
-            }
-        }
+        int[][] nujuk = new int[board.length+1][board[0].length+1];
 
         Arrays.stream(skill).forEach(row -> {
             int type = row[0];
@@ -30,43 +22,38 @@ public class Main {
             int c2 = row[4];
             int degree = row[5];
 
-            int width = c2 - c1 + 1;
-            int height = r2 - r1 + 1;
+            int d = type == 1 ? -degree : degree;
 
-            for (int i = 0; i < height; i++) {
-                for (int j = 0; j < width; j++) {
-                    if (type == 1) {
-
-                        if (board[r1 + i][c1 + j] < 1) {
-                            board[r1 + i][c1 + j] -= degree;
-                        } else {
-
-                            board[r1 + i][c1 + j] -= degree;
-
-                            if (board[r1 + i][c1 + j] < 1) {
-                                answer.getAndDecrement();
-                            }
-
-                        }
-
-                    } else {
-
-                        if (board[r1 + i][c1 + j] > 0) {
-                            board[r1 + i][c1 + j] += degree;
-                        } else {
-                            board[r1 + i][c1 + j] += degree;
-
-                            if (board[r1 + i][c1 + j] > 0) {
-                                answer.getAndIncrement();
-                            }
-                        }
-
-                    }
-                }
-            }
+            nujuk[r1][c1] += d;
+            nujuk[r1][c2+1] += (-d);
+            nujuk[r2+1][c2+1] += d;
+            nujuk[r2+1][c1] += (-d);
         });
 
-        return answer.get();
+        for (int row = 0; row < nujuk.length-1; row++) {
+            for (int col = 0; col < nujuk[row].length-1; col++) {
+                nujuk[row][col + 1] = nujuk[row][col + 1] + nujuk[row][col];
+            }
+        }
+
+
+        for (int row = 0; row < nujuk[0].length-1; row++) {
+            for (int col = 0; col < nujuk.length-1; col++) {
+                nujuk[col + 1][row] = nujuk[col + 1][row] + nujuk[col][row];
+            }
+        }
+
+        int answer = 0;
+
+        for (int row = 0; row < nujuk.length-1; row++) {
+            for (int col = 0; col < nujuk[row].length-1; col++) {
+                if (board[row][col] + nujuk[row][col] > 0) {
+                    answer++;
+                }
+            }
+        }
+
+        return answer;
     }
 
 }
