@@ -1,7 +1,6 @@
 package programmers.비밀코드해독;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Main {
