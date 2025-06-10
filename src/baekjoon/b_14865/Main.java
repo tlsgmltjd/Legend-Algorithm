@@ -17,6 +17,7 @@ public class Main {
             max = Math.max(max, Math.max(Math.abs(node[0][i]), Math.abs(node[1][i])));
         }
 
+        // 2: 부모, 3: depth
         List<int[]> bong = new ArrayList<>();
         Stack<int []> stack = new Stack<>();
 
@@ -34,7 +35,7 @@ public class Main {
                     if (left[1] == 1) {
                         stack.push(left);
                     } else {
-                        bong.add(new int[]{left[0], x, 0});
+                        bong.add(new int[]{left[0], x, -1, 0});
                     }
                 } else {
                     stack.push(new int[] {x, 1});
@@ -44,7 +45,7 @@ public class Main {
 
             if (!stack.isEmpty() && i == n-2) {
                 int[] left = stack.pop();
-                bong.add(new int[]{left[0], nx, 0});
+                bong.add(new int[]{left[0], nx, -1, 0});
             }
         }
 
@@ -63,21 +64,15 @@ public class Main {
                 int nx2 = Math.max(bong.get(j)[0], bong.get(j)[1]);
 
                 if ((x1 < nx1 && nx1 < x2) && (x1 < nx2 && nx2 < x2)) {
-                    if (bong.get(i)[2] == 2 || bong.get(i)[2] == 3) {
-                        bong.get(j)[2] = 2;
-                        bong.get(i)[2] = 3;
-                        continue;
-                    }
-
-                    bong.get(j)[2] = 2;
-                    bong.get(i)[2] = 1;
+                    bong.get(j)[3]++;
+                    bong.get(j)[2]=bong.get(i)[2] == -1 ? i : bong.get(j)[2];
                 }
             }
         }
 
 
 //        for (int[] ints : bong) {
-//            System.out.print(ints[0] + " " + ints[1] + " " + ints[2]);
+//            System.out.print(ints[0] + " " + ints[1] + " " + ints[2] + " " + ints[3]);
 //            System.out.println("======");
 //        }
 
@@ -85,13 +80,39 @@ public class Main {
         int second = 0;
 
         for (int[] ints : bong) {
-            if (ints[2] == 1 || ints[2] == 0) {
+            if (ints[3] == 0) {
                 first++;
             }
-            if (ints[2] == 2 || ints[2] == 0) {
-                second++;
+        }
+
+        int maxCount = 0;
+
+        for (int i = 0; i < bong.size(); i++) {
+            if (bong.get(i)[2] == -1) {
+                int maxDepth = 0;
+                int count = 0;
+
+                for (int j = 0; j < bong.size(); j++) {
+                    if (bong.get(j)[2] == i) {
+                        int depth = bong.get(j)[3];
+                        if (depth > maxDepth) {
+                            maxDepth = depth;
+                            count = 1;
+                        } else if (depth == maxDepth) {
+                            count++;
+                        }
+                    }
+                }
+
+                if (count == 0) {
+                    second++;
+                }
+
+                maxCount += count;
             }
         }
+
+        second += maxCount;
 
         System.out.println(first + " " + second);
     }
